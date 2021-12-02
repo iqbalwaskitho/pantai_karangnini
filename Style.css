@@ -1,0 +1,76 @@
+body {
+  min-height: 2000px;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: rgb(233, 146, 146);
+}
+
+#destinasi {
+  background-color: rgb(233, 146, 146);
+}
+
+#destinasi .box {
+  background-color: rgb(233, 146, 146);
+}
+.tentang .box {
+  width: 260px;
+  background: rgb(233, 146, 146);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  margin: 5px;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.tentang .box img {
+  background: #f8f8fe;
+  border-radius: 100px;
+  width: 50%;
+  margin-bottom: 8px;
+}
+
+.tentang .box h3 {
+  font-size: 22px;
+  margin: 2px 0;
+  color: var(--black);
+}
+.tentang .box p {
+  font-size: 15px;
+  margin: 2px 0;
+  color: #01070e;
+  text-align: center;
+}
+
+.experts .box span {
+  font-size: 10px;
+  color: var(--main-color);
+}
+
+.tentang .box .share {
+  position: absolute;
+  top: 5px;
+  right: -50px;
+  transition: 0.2s;
+}
+
+.tentang .box:hover .share {
+  right: 15px;
+}
+
+.tentang .box .share a {
+  border-radius: 5px;
+  background: var(--main-color);
+  color: #fff;
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  margin-top: 5px;
+}
+
+.tentang .box .share a:hover {
+  background: var(--black);
+}
